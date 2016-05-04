@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.js"></script>
+    <script src="q.js"></script>
+  </head>
+  <body ng-app="myModule" ng-controller="GameCtrl">
+    <h1>List if Games</h1>
+    <ul>
+      <li ng-repeat="game in games">{{ game }}</li>
+    </ul>
+  </body>
+</html>
